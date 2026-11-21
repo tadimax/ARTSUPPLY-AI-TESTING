@@ -1,0 +1,659 @@
+[
+  {
+    "id": "S1-01",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "round percentage parts together instead of separately",
+    "killedByCount": 4,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-02",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "default platform rate 15% instead of 18%",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-03",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "pro and power rates swapped",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-04",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "fixed per-order amount 35 cents instead of 30",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-05",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "fixed amount charged even when nothing is priced",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-06",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "quantity ignored in order fee",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-07",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "zero-priced unit charged the fixed amount",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-08",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "missing quantity counts as 0 instead of 1",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S1-09",
+    "spec": "S1",
+    "file": "buyerPrice.js",
+    "desc": "negative unit price not clamped to zero",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S2-01",
+    "spec": "S2",
+    "file": "buyerPrice.js",
+    "desc": "founding rate still active at the exact expiry instant",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S2-02",
+    "spec": "S2",
+    "file": "buyerPrice.js",
+    "desc": "zero founding rate treated as invalid",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S2-03",
+    "spec": "S2",
+    "file": "buyerPrice.js",
+    "desc": "founding rate can raise the rate above the tier rate",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S2-04",
+    "spec": "S2",
+    "file": "buyerPrice.js",
+    "desc": "higher of tier and founding rate used",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S2-05",
+    "spec": "S2",
+    "file": "buyerPrice.js",
+    "desc": "founding rate ignored entirely",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S2-06",
+    "spec": "S2",
+    "file": "buyerPrice.js",
+    "desc": "missing founding record not guarded",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S2-07",
+    "spec": "S2",
+    "file": "buyerPrice.js",
+    "desc": "null user not guarded in bpsFor",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-01",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "growth and scale margins swapped",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-02",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "unknown tier falls back to scale instead of free",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-03",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "processing rate 3.0% instead of 2.9%",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-04",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "processing flat 30 cents instead of 58",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-05",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "payout not clamped at zero",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-06",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "platform fee rounded down",
+    "killedByCount": 5,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-07",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "processing fee percentage rounded down",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S3-08",
+    "spec": "S3",
+    "file": "moneyMath.js",
+    "desc": "processing fee not deducted from payout",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S4-01",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "item ratio not capped at 1",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S4-02",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "zero subtotal does not fall back to item price",
+    "killedByCount": 0,
+    "killedByAnyFile": false,
+    "potentiallyEquivalent": true
+  },
+  {
+    "id": "S4-03",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "missing return shipping defaults to 0 instead of shipping share",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S4-04",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "change-of-mind refund not clamped at zero",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S4-05",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "at-fault refund omits service fee share",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S4-06",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "change-of-mind refund also returns service fee",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S4-07",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "tax share rounded down",
+    "killedByCount": 4,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S4-08",
+    "spec": "S4",
+    "file": "moneyMath.js",
+    "desc": "at-fault refund omits tax share",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S5-01",
+    "spec": "S5",
+    "file": "moneyMath.js",
+    "desc": "card flat fee 25 cents instead of 30",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S5-02",
+    "spec": "S5",
+    "file": "moneyMath.js",
+    "desc": "card rate 3% instead of 2.9%",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S5-03",
+    "spec": "S5",
+    "file": "moneyMath.js",
+    "desc": "repeat-offender penalty inverted",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S5-04",
+    "spec": "S5",
+    "file": "moneyMath.js",
+    "desc": "outbound shipping omitted from debt",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S5-05",
+    "spec": "S5",
+    "file": "moneyMath.js",
+    "desc": "return shipping omitted from debt",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S5-06",
+    "spec": "S5",
+    "file": "moneyMath.js",
+    "desc": "card cost estimated on return shipping instead of refund",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S5-07",
+    "spec": "S5",
+    "file": "moneyMath.js",
+    "desc": "card fee rounded down",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-01",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "unpaid artist still owes the disputed amount",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-02",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "chargeback fee added to seller debt",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-03",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "fee share rounded down",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-04",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "only half of recovered money goes to the disputed amount",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-05",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "fee recovery double counts the disputed amount",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-06",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "unpaid artist gets a shortfall",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-07",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "platform never absorbs the fee",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-08",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "negative recovered amount not clamped",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S6-09",
+    "spec": "S6",
+    "file": "moneyMath.js",
+    "desc": "unpaid artist still has money recovered",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-01",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "newest debt recovered first",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-02",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "debt exactly equal to remaining not fully recovered",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-03",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "loop does not stop at zero remaining",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-04",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "partial debt keeps its full amount",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-05",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "remaining zeroed after a full recovery",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-06",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "input debts array is mutated by sorting",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-07",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "negative recovered amount not clamped",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-08",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "negative debt amounts counted in the outstanding sum",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S7-09",
+    "spec": "S7",
+    "file": "moneyMath.js",
+    "desc": "partial recovered amount reports the debt amount",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-01",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "points earned rounded instead of floored",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-02",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "negative amount can earn negative points",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-03",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "100 points per dollar off instead of 500",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-04",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "cap 15% instead of 5%",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-05",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "exactly 500 points redeems nothing",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-06",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "larger of cap and balance used",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-07",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "cap in dollars rounded instead of floored",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-08",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "discount amount wrong multiplier",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S8-09",
+    "spec": "S8",
+    "file": "moneyMath.js",
+    "desc": "fractional available points rounded instead of floored",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S9-01",
+    "spec": "S9",
+    "file": "ticketTiers.js",
+    "desc": "exactly 90 tickets not scale",
+    "killedByCount": 7,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S9-02",
+    "spec": "S9",
+    "file": "ticketTiers.js",
+    "desc": "exactly 40 tickets not growth",
+    "killedByCount": 7,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S9-03",
+    "spec": "S9",
+    "file": "ticketTiers.js",
+    "desc": "scale threshold 100 instead of 90",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S9-04",
+    "spec": "S9",
+    "file": "ticketTiers.js",
+    "desc": "growth threshold 50 instead of 40",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S9-05",
+    "spec": "S9",
+    "file": "ticketTiers.js",
+    "desc": "scale band returns growth",
+    "killedByCount": 7,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S9-06",
+    "spec": "S9",
+    "file": "ticketTiers.js",
+    "desc": "tickets until scale ignores current count",
+    "killedByCount": 7,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  },
+  {
+    "id": "S9-07",
+    "spec": "S9",
+    "file": "ticketTiers.js",
+    "desc": "tickets until growth ignores current count",
+    "killedByCount": 6,
+    "killedByAnyFile": true,
+    "potentiallyEquivalent": false
+  }
+]

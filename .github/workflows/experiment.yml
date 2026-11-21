@@ -1,0 +1,22 @@
+name: experiment
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  run-experiment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run every test file against the correct code and each seeded fault
+        run: node scripts/run_experiment.js
+      - name: Write the results summary
+        run: node scripts/analyze.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: results/
