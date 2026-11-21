@@ -24,6 +24,16 @@ The second command reads those files. It rewrites `results/summary.md`. The same
 
 Test files are never edited. The runner copies `sut/` to a temporary directory and applies one fault. Each test file runs from its original relative path. This is why `require("../../../sut/<module>")` resolves in the copy.
 
+### What reproduction covers
+
+These steps replay the evaluation of the stored test files. Everything after generation is deterministic. Running the stored files against the code and the faults gives the same results each time. Compare `results/summary.md` with the paper's tables to check.
+
+These steps do not regenerate the tests. The 54 files in `generated/` were written by Claude Sonnet subagents. A language model can give a different answer to the same prompt on each run. Model versions also change over time. A second generation run would produce different files and different numbers. The stored files are kept exactly as produced.
+
+No script in this repo starts the generation runs. They were started by hand as subagents in Claude Code. The prompts are in `prompts/` and the specs are in `specs/`, so the inputs are recorded. The outputs of a new run would not match.
+
+An isolated, scripted generation step is listed as future work in the paper. It would send each prompt to the model API with no file-access tools.
+
 ## Layout
 
 | Path | Contents |
