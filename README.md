@@ -1,4 +1,4 @@
-# Does a requirement-to-test checklist make AI-written tests catch more seeded faults?
+# Does a Requirement-to-Test Checklist Help LLMs Write Fault-Detecting Tests from Specifications Alone? An Experiment on a Payments Codebase
 
 COMP 3520 Research and Implementation Assignment. An executable experiment on AI test generation from specifications alone.
 
